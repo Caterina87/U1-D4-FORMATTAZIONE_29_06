@@ -4,31 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Creazione Layout articolo da mockup</title>
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="font-awesome.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/font-awesome.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+    </style>
   </head>
-  <body>
-    <header>
-      <img src="./img/logo.svg" alt="Logo epicode" />
+  <body class="container">
+    <header class="block-header">
+      <img class="logo" src="./img/logo.svg" alt="Logo epicode" />
       <h2>Epicode - Il blog dei developers</h2>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Articoli</a></li>
+          <li><a href="#">Lavora con noi</a></li>
+        </ul>
+      </nav>
     </header>
-    <br />
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Articoli</a></li>
-        <li><a href="#">Lavora con noi</a></li>
-      </ul>
-    </nav>
-    <br />
     <main>
       <h1>Come creare un template per i post</h1>
       <p><i>di Mario Rossi - pubblicato il 25-10-2020</i></p>
       <article id="post">
         <p>
-          La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <span>parti comuni</span>da
-          applicare a tutte le pagine
+          La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le
+          <span>parti comuni</span>da applicare a tutte le pagine
         </p>
         <p>Le varie aree saranno quindi suddivise in:</p>
         <ul>
